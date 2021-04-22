@@ -1,0 +1,28 @@
+
+.header__badge {
+    position: relative;
+    cursor: pointer;
+    padding-right: 19px;
+    flex: 0 0 auto;
+
+    &__count {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        line-height: 18px;
+        background: linear-gradient(137.56deg, #FF815F 15.22%, #DB5530 108.46%);
+        color: #fff;
+        text-align: center;
+        transform: translate(0, -50%);
+        font-size: 11px;
+        pointer-events: none;
+        font-weight: 600;
+    }
+
+    &_cart {
+        margin: 0 25px;
+    }
+}

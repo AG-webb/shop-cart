@@ -1,0 +1,39 @@
+.cart-modal__item {
+    display: flex;
+    align-items: flex-start;
+    padding: 18px 0;
+    border-bottom: 1px solid #ededed;
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    &__img {
+        flex: 0 0 85px;
+        width: 83px;
+        max-width: 83px;
+        background-color: #BDBDBD;
+    }
+
+    &__info {
+        flex: 1 1 auto;
+        padding-left: 15px;
+        height: 100%;
+    }
+
+    &__title {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__price {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    &__remove {
+        flex: 0 0 9px;
+        max-width: 9px;
+        cursor: pointer;
+    }
+}

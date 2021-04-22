@@ -1,0 +1,22 @@
+.button {
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #eef0f1;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 13px 0px 11px;
+    border: 1px solid #ededed;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #222222;
+  
+    &:hover {
+      background: linear-gradient(120.62deg, #089E83 19.05%, #4DCA7E 81.86%);
+      color: #fff;
+    }
+}

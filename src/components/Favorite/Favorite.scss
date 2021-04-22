@@ -1,0 +1,51 @@
+.favorite-products {
+    max-width: 1170px;
+    padding: 15px;
+    margin: 150px auto 0;
+
+    &__table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ededed;
+        text-align: center;
+
+        h3 {
+            margin-bottom: 0;
+        }
+
+        thead td {
+            padding: 10px 20px;
+        }
+
+        tbody {
+            td {
+                border: 1px solid #ededed;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            tr:first-child td {
+                border-top: 3px solid #1BAA81;
+            }
+        }
+
+        &__img {
+            max-width: 150px;
+            margin: 20px auto;
+        }
+
+        &__button {
+            display: block;
+        }
+
+        &__delete {
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        &__empty {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+}

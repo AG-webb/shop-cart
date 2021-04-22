@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background-color: #fff;
+
+    &__wrap {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 15px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+    }
+
+    &__action {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 500px) {
+            margin-top: 20px;
+        }
+    }
+}
+
+.users-btn {
+    width: 54px;
+    height: 54px;
+    background-color: #E6F7EE;
+    border-radius: 50%;
+    background-image: url(../../img/users.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+    flex: 0 0 auto;
+}
+
+.valute {
+    &__select {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.ant-select-dropdown {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
