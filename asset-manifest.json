@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/shop-cart/static/css/main.0b3423a2.chunk.css",
-    "main.js": "/shop-cart/static/js/main.d5961bcf.chunk.js",
-    "main.js.map": "/shop-cart/static/js/main.d5961bcf.chunk.js.map",
-    "runtime-main.js": "/shop-cart/static/js/runtime-main.7f0359c7.js",
-    "runtime-main.js.map": "/shop-cart/static/js/runtime-main.7f0359c7.js.map",
+    "main.css": "/shop-cart/static/css/main.79649022.chunk.css",
+    "main.js": "/shop-cart/static/js/main.b44bd1df.chunk.js",
+    "main.js.map": "/shop-cart/static/js/main.b44bd1df.chunk.js.map",
+    "runtime-main.js": "/shop-cart/static/js/runtime-main.7ce056b4.js",
+    "runtime-main.js.map": "/shop-cart/static/js/runtime-main.7ce056b4.js.map",
     "static/css/2.c51d807b.chunk.css": "/shop-cart/static/css/2.c51d807b.chunk.css",
-    "static/js/2.be04d897.chunk.js": "/shop-cart/static/js/2.be04d897.chunk.js",
-    "static/js/2.be04d897.chunk.js.map": "/shop-cart/static/js/2.be04d897.chunk.js.map",
-    "static/js/3.a0167f2f.chunk.js": "/shop-cart/static/js/3.a0167f2f.chunk.js",
-    "static/js/3.a0167f2f.chunk.js.map": "/shop-cart/static/js/3.a0167f2f.chunk.js.map",
+    "static/js/2.d51f3311.chunk.js": "/shop-cart/static/js/2.d51f3311.chunk.js",
+    "static/js/2.d51f3311.chunk.js.map": "/shop-cart/static/js/2.d51f3311.chunk.js.map",
+    "static/js/3.f1cf6ea6.chunk.js": "/shop-cart/static/js/3.f1cf6ea6.chunk.js",
+    "static/js/3.f1cf6ea6.chunk.js.map": "/shop-cart/static/js/3.f1cf6ea6.chunk.js.map",
     "index.html": "/shop-cart/index.html",
     "static/css/2.c51d807b.chunk.css.map": "/shop-cart/static/css/2.c51d807b.chunk.css.map",
-    "static/css/main.0b3423a2.chunk.css.map": "/shop-cart/static/css/main.0b3423a2.chunk.css.map",
-    "static/js/2.be04d897.chunk.js.LICENSE.txt": "/shop-cart/static/js/2.be04d897.chunk.js.LICENSE.txt",
+    "static/css/main.79649022.chunk.css.map": "/shop-cart/static/css/main.79649022.chunk.css.map",
+    "static/js/2.d51f3311.chunk.js.LICENSE.txt": "/shop-cart/static/js/2.d51f3311.chunk.js.LICENSE.txt",
     "static/media/ProductActions.scss": "/shop-cart/static/media/lock_white.c816556c.svg",
     "static/media/close.48d04c28.svg": "/shop-cart/static/media/close.48d04c28.svg",
     "static/media/delete.37e4cac9.svg": "/shop-cart/static/media/delete.37e4cac9.svg",
@@ -21,10 +21,10 @@
     "static/media/Header.scss": "/shop-cart/static/media/users.cbd8adff.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f0359c7.js",
+    "static/js/runtime-main.7ce056b4.js",
     "static/css/2.c51d807b.chunk.css",
-    "static/js/2.be04d897.chunk.js",
-    "static/css/main.0b3423a2.chunk.css",
-    "static/js/main.d5961bcf.chunk.js"
+    "static/js/2.d51f3311.chunk.js",
+    "static/css/main.79649022.chunk.css",
+    "static/js/main.b44bd1df.chunk.js"
   ]
 }
