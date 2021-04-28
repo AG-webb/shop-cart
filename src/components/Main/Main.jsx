@@ -7,6 +7,7 @@ import { message } from 'antd';
 import { UsersApi } from '../../api/api';
 import Users from '../Users/Users';
 import './Main.scss';
+import Profile from '../Profile/Profile';
 
 const Main = (props) => {
     const [valute, setValute] = useState("usd");
@@ -69,13 +70,20 @@ const Main = (props) => {
         },
     ]);
     const [users, setUsers] = useState([]);
+    const [isFetching, setIsFetching] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
 
+    // Get Usres
     useEffect(() => {
-        UsersApi.getUsers()
+        setIsFetching(true);
+
+        UsersApi.getUsers(currentPage)
         .then(users => {
             setUsers(users);
+
+            setIsFetching(false);
         })
-    }, []);
+    }, [currentPage]);
 
     // add Message
     const showAddMessage = (text) => {
@@ -182,8 +190,14 @@ const Main = (props) => {
             <Route
                 path="/users" 
                 render={() => <Users
+                    setCurrentPage={setCurrentPage}
                     users={users}
+                    isFetching={isFetching}
                 />}
+            />
+            <Route
+                path="/profile/:userId?" 
+                render={() => <Profile />}
             />
             <Route
                 path="/"

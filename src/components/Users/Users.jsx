@@ -1,20 +1,26 @@
+import { Pagination } from 'antd';
 import React from 'react';
+import Loader from '../Loader/Loader';
 import User from '../User/User';
 import './Users.scss';
 
 const Users = (props) => {
+
     const renderUsers = () => {
+        let users = props.users.data || [];
         let allUsers = [];
 
-        if(props.users.length) {
-            props.users.map(user => {
+        if(users.length) {
+            users.map(user => {
                 allUsers = [
                     ...allUsers,
                     <User
                         key={user.id}
                         id={user.id}
-                        name={user.name}
-                        username={user.username}
+                        firstName={user.first_name}
+                        lastName={user.last_name}
+                        avatar={user.avatar}
+                        email={user.email}
                     />
                 ];
 
@@ -25,11 +31,29 @@ const Users = (props) => {
         }
 
         return allUsers;
+    }
+    
+    const paginationChange = (currentPage) => {
+        props.setCurrentPage(currentPage);
+    }
+
+    if(props.isFetching) {
+        return <Loader />
     } 
 
     return (
-        <div className="users">
-            {renderUsers()}
+        <div className="users-container">
+            <div className="users">
+                {renderUsers()}
+            </div>
+    
+            <div className="pagination">
+                <Pagination
+                    current={props.users.page || 1}
+                    total={props.users.total_pages * 10 || 10}
+                    onChange={paginationChange}
+                />
+            </div>
         </div>
     );
 }
